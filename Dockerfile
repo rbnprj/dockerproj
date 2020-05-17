@@ -5,6 +5,7 @@ WORKDIR /app
 
 #Copy source code to working directory
 Copy . app.py /app/
+Copy . nlib /app/
 
 #Install packages from requirements.txt
 #hadolint ignore=DL3013
